@@ -1,9 +1,9 @@
 import React from 'react'
-
+import './index.css';
 
 function Header() {
   return (
-    <div>keeper</div>
+    <h1 className='Navbar'>keeper</h1>
   )
 }
 

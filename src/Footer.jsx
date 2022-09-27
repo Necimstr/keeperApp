@@ -1,13 +1,12 @@
 import React from 'react'
+import './index.css';
 
-
-
+const d = new Date();
 
 
 function Footer() {
-var D = new Date().getFullYear;
   return (
-    <p>Copyrights {D}</p>
+    <p className='footer'> Copyright © {d.getFullYear()} </p>
   )
 }
 
